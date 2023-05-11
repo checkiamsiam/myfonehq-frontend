@@ -11,7 +11,7 @@ import { useTranslation } from 'next-i18next';
 const social = [
   {
     id: 0,
-    link: 'https://www.facebook.com/redqinc/',
+    link: '',
     icon: <IoLogoFacebook />,
     className: 'facebook',
     title: 'text-facebook',
@@ -147,12 +147,12 @@ export default function MobileMenu() {
         <div className="flex items-center justify-center bg-white border-t border-gray-100 px-7 flex-shrink-0 space-s-1">
           {social?.map((item, index) => (
             <a
-              href={item.link}
+              // href={item.link}
               className={`text-heading p-5 opacity-60 first:-ms-4 transition duration-300 ease-in hover:opacity-100 ${item.className}`}
-              target="_blank"
+              // target="_blank"
               key={index}
             >
-              <span className="sr-only">{t(`${item.title}`)}</span>
+              <span className="sr-only">{t(`${item.title}`)}</span> 
               {item.icon}
             </a>
           ))}
