@@ -1,8 +1,8 @@
-# ChawkBazar React Template
+# MyFonwHQ E-commerce Website
 
 ## Introduction
 
-Fastest E-commerce template built with `React`, `NextJS`, `TypeScript`, `React-Query` and `Tailwind CSS`. Its very easy to use, we used `react-query` for data fetching . You can setup your api endpoint's very easily and your frontend team will love using it.
+Fastest E-commerce website built with `React`, `NextJS`, `TypeScript`, `React-Query` and `Tailwind CSS`. Its very easy to use, we used `react-query` for data fetching . You can setup your api endpoint's very easily and your frontend team will love using it.
 
 ## Requirements
 
